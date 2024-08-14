@@ -138,3 +138,8 @@ process.on("unhandledRejection" , err => {
         process.exit(1);
     });
 })
+
+
+
+// HANDLING UNCAUGHT EXCEPTION -> CONSOLE.LOG(UNDEFINE VARIABLE)    asdadasdadsasd
+asdadasdadsads
