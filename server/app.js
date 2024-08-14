@@ -141,5 +141,3 @@ process.on("unhandledRejection" , err => {
 
 
 
-HANDLING UNCAUGHT EXCEPTION -> CONSOLE.LOG(UNDEFINE VARIABLE)    asdadasdadsasd
-asdadasdadsads
