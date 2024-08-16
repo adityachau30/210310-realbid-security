@@ -46,10 +46,12 @@ const Signup = () => {
       return false;
     }
 
-    if (password.length < 8) {
-      alert.error("Password should be at least 8 characters long");
-      return false;
-    }
+    const passwordPattern = /^(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+if (!passwordPattern.test(password)) {
+  alert.error("Password should be at least 8 characters long and include at least one special character.");
+  return false;
+}
+
 
     if (password !== cpassword) {
       alert.error("Passwords do not match");
