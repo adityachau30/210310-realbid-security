@@ -141,11 +141,3 @@ process.on("unhandledRejection" , err => {
 
 
 
-asdadsadadsaada
-asdddddddddasd
-assssssssssssss
-khjdajksskajjkasd
-assssssssss
-saaaaaaaaaaasd
-asdaaaaaaaaaaaaaaa
-asssssssssssadsd
